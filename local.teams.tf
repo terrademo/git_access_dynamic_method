@@ -3,42 +3,42 @@ locals {
        css-admin-release     = {
            description = "Approving the change to master"
            name        = "css-admin-release"
-           privacy     = "VISIBLE"
+           privacy     = "closed"
         }
        css-review-finacle    = {
            description = "PR reviewer for Finacle components"
            name        = "css-review-finacle"
-           privacy     = "VISIBLE"
+           privacy     = "closed"
         }
        ib-admin              = {
            description = "IB Acceleration Team"
            name        = "ib-admin"
-           privacy     = "VISIBLE"
+           privacy     = "closed"
         }
        ib-bot                = {
            description = "Only Service Account fur automation"
            name        = "ib-bot"
-           privacy     = "VISIBLE"
+           privacy     = "closed"
         }
        ib-developers         = {
            description = "IB Engineers Pool"
            name        = "ib-developers"
-           privacy     = "VISIBLE"
+           privacy     = "closed"
         }
        ib-release-lead       = {
            description = ""
            name        = "ib-release-lead"
-           privacy     = "VISIBLE"
+           privacy     = "closed"
         }
        ib-reviewer-codefresh = {
            description = "Reviewing Codefresh changes in IB"
            name        = "ib-reviewer-codefresh"
-           privacy     = "VISIBLE"
+           privacy     = "closed"
         }
        ib-reviewer-k8        = {
            description = "Reviewing K8 Changes in IB"
            name        = "ib-reviewer-k8"
-           privacy     = "VISIBLE"
+           privacy     = "closed"
         }
     }
 }

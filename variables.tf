@@ -12,7 +12,7 @@ variable "owner"{
 variable "token" {
   type = string
   description = "personel access token"
-  default = "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"
+  default = "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"
 }
 
 
